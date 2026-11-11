@@ -23,6 +23,13 @@ A pull request proposes a branch for merging and keeps the explanation, changes,
 4. Use **Merge pull request** when the change is ready.
 5. Confirm that the PR says **Merged** and that the changes appear on `main`.
 
+## Verify the result after merging
+
+- Check for the purple **Merged** status. **Closed** by itself does not mean the branch was merged.
+- Open the repository's **Code** tab, select `main`, and read the changed files there. For documentation updates, also follow the edited links from the rendered Markdown.
+- If the PR used `Closes #NUMBER`, open that issue and confirm it was closed. Automatic closure applies when the PR merges into the default branch.
+- Keep the PR URL as the record of what changed and how it was checked.
+
 ## Optional terminal workflow
 
 With Git and GitHub CLI installed and authenticated, the following is the equivalent workflow. Choose a unique branch name for each task.
